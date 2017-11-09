@@ -1,0 +1,10 @@
+<nav search_view="search" color="#d3d3d3">
+  <view name="configuration"/>
+  <view name="search" label="Search"/>
+  <collection label="Dashboards">
+    <view name="akamai_overview" default="true"/>
+    <view name="akamai_top_countries" />
+    <view name="akamai_waf_activities" />
+    <view name="splunk_on_akamai"/>
+  </collection>
+</nav>
